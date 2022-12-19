@@ -2,7 +2,6 @@ import adapter from '@sveltejs/adapter-auto';
 import nodeAdapter from '@sveltejs/adapter-node';
 import staticAdapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import { construct_svelte_component } from 'svelte/internal';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
