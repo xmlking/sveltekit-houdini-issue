@@ -1,0 +1,30 @@
+fragment Policy_list_fields on tz_policies {
+	id
+	# action
+	# annotations
+	# app_id
+	created_at
+	# created_by
+	# deleted_at
+	# description
+	destination_address
+	destination_port
+	# direction
+	disabled
+	display_name
+	# protocol
+	source_address
+	source_port
+	subject_display_name
+	# subject_domain
+	# subject_id
+	# subject_secondary_id
+	# subject_type
+	# tags
+	template
+	updated_at
+	# updated_by
+	# valid_from
+	# valid_to
+	# weight
+}

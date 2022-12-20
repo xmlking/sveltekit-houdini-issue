@@ -13,9 +13,9 @@ const config = {
 		//But others, like autoprefixer, need to run after,
 		autoprefixer,
 		!dev &&
-		cssnano({
-			preset: 'default'
-		}),
+			cssnano({
+				preset: 'default'
+			}),
 		// Use Future CSS Today
 		postcssPresetEnv({
 			stage: 3,
